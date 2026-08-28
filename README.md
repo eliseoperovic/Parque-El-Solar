@@ -132,31 +132,43 @@ la publicación del sitio; se actualizan cuando los tengas.
 
 | Dato | Estado | Dónde impacta |
 |---|---|---|
-| Logo institucional | Falta enviarlo | Menú y pie de página (hoy hay un texto que hace de logo) |
-| Fotos reales del predio | Se van sumando | `assets/photos/source/` (ver punto 4) |
+| Logo institucional | ✅ Recibido — falta que me llegue como archivo (ver aviso abajo) | Menú y pie de página |
+| Fotos reales del predio | ✅ Las estás enviando — falta que me lleguen como archivo (ver aviso abajo) | `assets/photos/source/` (ver punto 4) |
 | Eslogan | No definido | Hay 3 opciones propuestas, comentadas dentro de `lib/manifest.js`. Ninguna se muestra todavía en el sitio. |
-| Habilitación municipal N.º | Falta | Pie de página (hoy dice "—") |
-| Política de privacidad y términos | Falta | Pie de página (hoy dice "pendiente de publicación") |
-| URL exacta de Facebook | Falta | Hoy el sitio muestra "Facebook: Parque El Solar" como texto simple, sin enlace, para no publicar una dirección adivinada. Buscá el comentario `FACEBOOK-URL` en `index.html` para agregarla cuando la tengas. |
+| Habilitación municipal N.º | ✅ 6875 | Pie de página |
+| Política de privacidad y términos | Descartada por vos — no aparece en el sitio | — |
+| URL exacta de Facebook | ✅ facebook.com/parqueelsolar | Footer y panel de contacto |
 | ¿Ofrecen cremación propia? | A confirmar | La sección de Servicios hoy sólo muestra "Columbarios" (resguardo de urnas). Si el cementerio también realiza la cremación, avisame para agregar esa tarjeta. |
-| CUIT | No publicado a propósito | Ver aviso especial abajo |
+| CUIT | ✅ 27-06624986-2 (confirmaste que la empresa opera bajo esa persona física) | Pie de página |
 | Algunas respuestas de las Preguntas frecuentes | Redactadas como texto de partida | Ver aviso abajo |
 
-### Aviso sobre el CUIT
+### Aviso sobre el logo y las fotos que enviaste
 
-El número que me pasaste (27-06624986-2) empieza con **27**, que en
-Argentina es el prefijo de una **persona física**, no el de una empresa.
-Publicarlo tal cual expondría el número fiscal de una persona, no el del
-cementerio. Por eso lo dejé escrito pero **comentado** (invisible) dentro
-de `index.html` y de `lib/manifest.js`, con una nota explicando el motivo.
-Antes de publicarlo, confirmame:
+Recibí el logo y varias fotos reales del predio en el chat, y ya elegí
+cuáles usar (portada, sección "El parque", y el logo en menú y pie de
+página) — pero el chat donde me las mandaste no me entrega los archivos
+en sí, sólo la vista previa. Para poder subirlas al sitio necesito que me
+las hagas llegar como **archivo**, de alguna de estas formas:
 
-- si el cementerio opera bajo esa persona física y estás de acuerdo en
-  publicarlo así, o
-- si existe una razón social con CUIT propio (empieza con 30 o 33) que sea
-  la que corresponde mostrar.
+- Subiéndolas directamente a la carpeta `assets/photos/source/` del
+  repositorio en GitHub (con los nombres `hero.jpg`, `parque-jardines.jpg`
+  y `logo.png`), o
+- Volviendo a enviarlas como adjunto/archivo (no pegadas en el cuerpo del
+  mensaje) si tu chat distingue entre las dos cosas, o
+- Pasándome un enlace de descarga (Drive, WhatsApp Web, etc.).
 
-Con tu confirmación, lo activo en un minuto.
+En cuanto las tenga como archivo las proceso y las dejo en `assets/img/`.
+
+### Fotos que no voy a usar en el sitio
+
+Entre las que enviaste hay tres que muestran lápidas o cruces de cerca —
+una incluso con el nombre de una persona real. El brief que me diste pide
+justamente evitar eso en las fotos del sitio ("sin lápidas en primer
+plano, cruces"), y en el caso de la que tiene un nombre visible, además,
+publicarla expondría el nombre de una persona fallecida sin el permiso de
+su familia. Por esas dos razones no las voy a subir, aunque me las
+hayas mandado. El resto de las fotos (el jardín con la glorieta, los
+árboles con luz de sol) están excelentes y son las que elegí usar.
 
 ### Aviso sobre algunas respuestas de las Preguntas frecuentes
 

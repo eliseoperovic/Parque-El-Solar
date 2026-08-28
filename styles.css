@@ -681,7 +681,6 @@ em { font-style: italic; }
   display: flex; flex-direction: column; gap: .35rem;
 }
 .footer-legal p { font-size: .8rem; color: rgba(247,249,246,.6); }
-.footer-pendiente { font-style: italic; }
 
 /* =============================================================
    16. Responsive — ajustes finos por breakpoint

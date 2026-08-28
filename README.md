@@ -69,26 +69,23 @@ teléfono, actualizalo en los dos archivos. La forma más fácil:
 | Horario de administración | `8:30 a 12:30` |
 | Horario de visitas | `8 a 19` |
 
-## 4. Cómo reemplazar las fotos
+## 4. Cómo reemplazar las fotos o el logo
 
-Las fotos actuales son provisorias (de banco de imágenes), hasta que envíes
-las tuyas del predio.
+El sitio ya usa tus fotos reales del predio y tu logo. Si más adelante
+querés cambiar alguna:
 
-1. Guardá tus fotos en la carpeta `assets/photos/source/` con estos
-   nombres exactos:
-   - `hero.jpg` (o `.png`) → la foto grande de la portada. Un ingreso o
-     caminería con luz de mañana, sin lápidas en primer plano.
-   - `parque-jardines.jpg` (o `.png`) → una foto ancha de los jardines,
-     para la sección "El parque".
-2. Avisame o pedile a quien administre el sitio que las convierta y las
-   suba a `assets/img/` (es un paso técnico corto). Si preferís hacerlo
-   vos mismo más adelante, cualquier programador puede correr el script
-   que ya está preparado para esto.
-3. También podés mandarme las fotos por WhatsApp y yo las proceso y subo.
+1. Guardá el archivo nuevo en la carpeta `assets/photos/source/` con el
+   mismo nombre que el que querés reemplazar:
+   - `hero.jpg` (o `.png`) → la foto grande de la portada.
+   - `parque-jardines.jpg` (o `.png`) → la foto ancha de la sección "El
+     parque".
+   - `logo.jpg` (o `.png`) → el logo, en el menú y en el pie de página.
+2. Subilo directamente a esa carpeta en el repositorio de GitHub (podés
+   arrastrar el archivo ahí mismo desde la web de GitHub), o mandámelo y
+   yo lo proceso y subo a `assets/img/`.
 
-El logo institucional va en el mismo lugar: en cuanto lo envíes, se
-reemplaza el nombre en letras (que hoy hace de logo provisorio) por tu
-imagen, tanto en el menú de arriba como en el pie de página.
+Para la foto de portada, evitá que se vean lápidas en primer plano —
+una caminería, un jardín o una arboleda funcionan mejor.
 
 ## 5. Cómo leer las marcas de origen en WhatsApp
 
@@ -132,8 +129,8 @@ la publicación del sitio; se actualizan cuando los tengas.
 
 | Dato | Estado | Dónde impacta |
 |---|---|---|
-| Logo institucional | ✅ Recibido — falta que me llegue como archivo (ver aviso abajo) | Menú y pie de página |
-| Fotos reales del predio | ✅ Las estás enviando — falta que me lleguen como archivo (ver aviso abajo) | `assets/photos/source/` (ver punto 4) |
+| Logo institucional | ✅ Recibido y publicado | Menú y pie de página |
+| Fotos reales del predio | ✅ Portada y sección "El parque" ya usan tus fotos | `assets/photos/source/` (ver punto 4) |
 | Eslogan | No definido | Hay 3 opciones propuestas, comentadas dentro de `lib/manifest.js`. Ninguna se muestra todavía en el sitio. |
 | Habilitación municipal N.º | ✅ 6875 | Pie de página |
 | Política de privacidad y términos | Descartada por vos — no aparece en el sitio | — |
@@ -142,22 +139,14 @@ la publicación del sitio; se actualizan cuando los tengas.
 | CUIT | ✅ 27-06624986-2 (confirmaste que la empresa opera bajo esa persona física) | Pie de página |
 | Algunas respuestas de las Preguntas frecuentes | Redactadas como texto de partida | Ver aviso abajo |
 
-### Aviso sobre el logo y las fotos que enviaste
+### Sobre la foto de portada
 
-Recibí el logo y varias fotos reales del predio en el chat, y ya elegí
-cuáles usar (portada, sección "El parque", y el logo en menú y pie de
-página) — pero el chat donde me las mandaste no me entrega los archivos
-en sí, sólo la vista previa. Para poder subirlas al sitio necesito que me
-las hagas llegar como **archivo**, de alguna de estas formas:
-
-- Subiéndolas directamente a la carpeta `assets/photos/source/` del
-  repositorio en GitHub (con los nombres `hero.jpg`, `parque-jardines.jpg`
-  y `logo.png`), o
-- Volviendo a enviarlas como adjunto/archivo (no pegadas en el cuerpo del
-  mensaje) si tu chat distingue entre las dos cosas, o
-- Pasándome un enlace de descarga (Drive, WhatsApp Web, etc.).
-
-En cuanto las tenga como archivo las proceso y las dejo en `assets/img/`.
+Entre las fotos que mandaste había alguna toma de la misma caminería con
+pequeñas placas visibles, a media distancia, cerca de la base de unos
+árboles — no en primer plano ni legibles, así que no chocan con la regla
+de "sin lápidas en primer plano" del brief. Si preferís una portada sin
+ninguna placa a la vista, tengo otra foto tuya (el jardín con la glorieta
+y la palmera) que también quedaría muy bien ahí — avisame y la cambio.
 
 ### Fotos que no voy a usar en el sitio
 
@@ -184,7 +173,6 @@ me lo corregís y lo actualizo.
 
 ```
 index.html          → la página (todo el sitio es una sola página larga)
-creditos.html        → créditos de las fotos de banco
 styles.css            → todos los estilos visuales
 main.js               → el comportamiento (botones, animaciones suaves)
 .htaccess             → configuración para que Hostinger no muestre versiones viejas
@@ -192,11 +180,9 @@ favicon.svg            → el icono de la pestaña del navegador
 lib/
   manifest.js          → tus datos editables (ver punto 3)
   gsap.min.js, ScrollTrigger.min.js → animaciones suaves
-  credits-render.js    → arma la página de créditos
 assets/
-  img/                 → fotos ya optimizadas que usa el sitio
-  photos/source/        → dejá acá tus fotos originales (ver punto 4)
-  credits.json          → datos de las fotos de banco actuales
+  img/                 → fotos y logo ya optimizados que usa el sitio
+  photos/source/        → tus fotos y logo originales (ver punto 4)
 ```
 
 Cualquier duda, escribime.

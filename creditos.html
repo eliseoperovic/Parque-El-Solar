@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Créditos fotográficos · Cementerio Parque El Solar</title>
+<meta name="description" content="Créditos y licencias de las fotografías provisorias usadas en el sitio del Cementerio Parque El Solar.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg?v=20260828">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="styles.css?v=20260828">
+<style>
+  .page-credits { padding-block: 3rem 5rem; }
+  .page-credits .back { display: inline-block; margin-bottom: 2rem; color: var(--verde); font-weight: 500; }
+  .page-credits h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin-bottom: .6rem; }
+  .page-credits > .container > p { color: var(--tinta-suave); max-width: 60ch; margin-bottom: 2.2rem; }
+  .credits-list { list-style: none; display: grid; gap: 1.2rem; max-width: 640px; }
+  .credits-list li { padding: 1.1rem 1.3rem; border: 1px solid var(--linea); border-radius: var(--radius-sm); background: var(--blanco); }
+  .credits-list strong { display: block; margin-bottom: .3rem; }
+  .credits-list a { color: var(--verde); }
+  .credits-empty { color: var(--tinta-suave); }
+</style>
+</head>
+<body class="page-credits">
+<header class="container">
+  <a class="back" href="index.html">← Volver al sitio</a>
+</header>
+<main class="container">
+  <h1>Créditos fotográficos</h1>
+  <p>Mientras el cliente entrega fotografías propias del predio, el sitio usa imágenes provisorias bajo licencias Creative Commons vía <a href="https://openverse.org" target="_blank" rel="noopener">Openverse</a>. Esta página lista cada una con su autor y licencia.</p>
+  <ul class="credits-list" data-credits>
+    <li class="credits-empty">Cargando créditos…</li>
+  </ul>
+</main>
+<script defer src="lib/credits-render.js?v=20260828"></script>
+</body>
+</html>

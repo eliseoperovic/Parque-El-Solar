@@ -131,7 +131,6 @@ la publicación del sitio; se actualizan cuando los tengas.
 |---|---|---|
 | Logo institucional | ✅ Recibido y publicado | Menú y pie de página |
 | Fotos reales del predio | ✅ Portada y sección "El parque" ya usan tus fotos | `assets/photos/source/` (ver punto 4) |
-| Eslogan | No definido | Hay 3 opciones propuestas, comentadas dentro de `lib/manifest.js`. Ninguna se muestra todavía en el sitio. |
 | Habilitación municipal N.º | ✅ 6875 | Pie de página |
 | Política de privacidad y términos | Descartada por vos — no aparece en el sitio | — |
 | URL exacta de Facebook | ✅ facebook.com/parqueelsolar | Footer y panel de contacto |

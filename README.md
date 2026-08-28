@@ -157,15 +157,16 @@ su familia. Por esas dos razones no las voy a subir, aunque me las
 hayas mandado. El resto de las fotos (el jardín con la glorieta, los
 árboles con luz de sol) están excelentes y son las que elegí usar.
 
-### Aviso sobre algunas respuestas de las Preguntas frecuentes
+### Aviso sobre una respuesta de las Preguntas frecuentes
 
-Redacté todas las respuestas del acordeón de preguntas frecuentes con la
-información que me diste. Dos de ellas — "¿Puedo comprar una parcela por
-adelantado? ¿Me obliga a algo?" y "¿Puedo ingresar con mi mascota?" — las
-completé con una respuesta razonable pero que no surge de un dato que me
-hayas confirmado. Te pido que las leas en la sección "Preguntas frecuentes"
-del sitio antes de darla por definitiva; si algo no es exactamente así,
-me lo corregís y lo actualizo.
+Ya confirmaste "¿Puedo comprar una parcela por adelantado?" (quedó como
+estaba) y corregiste "¿Puedo ingresar con mi mascota?" (no se permite).
+Queda una más que redacté sin un dato tuyo que la respalde:
+**"¿Cómo se abona? ¿Hay financiación?"**. Las formas de pago (efectivo,
+transferencia, débito) sí están confirmadas; lo que agregué por mi cuenta
+es que existen opciones de financiación que se conversan caso a caso.
+Decime si eso es así o si preferís que la respuesta diga sólo las formas
+de pago, sin mencionar financiación.
 
 ## 8. Estructura de la carpeta (por si algún día la necesitás)
 

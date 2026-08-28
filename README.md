@@ -134,7 +134,6 @@ la publicación del sitio; se actualizan cuando los tengas.
 | Habilitación municipal N.º | ✅ 6875 | Pie de página |
 | Política de privacidad y términos | Descartada por vos — no aparece en el sitio | — |
 | URL exacta de Facebook | ✅ facebook.com/parqueelsolar | Footer y panel de contacto |
-| ¿Ofrecen cremación propia? | A confirmar | La sección de Servicios hoy sólo muestra "Columbarios" (resguardo de urnas). Si el cementerio también realiza la cremación, avisame para agregar esa tarjeta. |
 | CUIT | ✅ 27-06624986-2 (confirmaste que la empresa opera bajo esa persona física) | Pie de página |
 | Algunas respuestas de las Preguntas frecuentes | Redactadas como texto de partida | Ver aviso abajo |
 

@@ -161,7 +161,6 @@
     var textos = {
       nav: "Hola, quisiera hablar con la administración.",
       hero: "Hola, quisiera hablar con la administración.",
-      servicios: "Hola, quisiera consultar sobre los servicios del cementerio.",
       urgenciasMovil: "Hola, necesito ayuda urgente."
     };
 

@@ -257,7 +257,7 @@ em { font-style: italic; }
 .nav-logo { display: flex; align-items: center; flex-shrink: 0; }
 .nav-logo img { height: 2.75rem; width: 2.75rem; border-radius: 50%; object-fit: cover; }
 
-.nav-links { display: none; align-items: center; gap: 1.9rem; }
+.nav-links { display: none; align-items: center; gap: 1.4rem; }
 .nav-links a {
   position: relative; font-size: .92rem; padding-block: .3rem;
   color: var(--tinta-suave);

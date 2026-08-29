@@ -97,7 +97,6 @@ vos sí, al final del mensaje que recibís:
 - `[web · nav]` → tocó el botón que está siempre arriba (o en el menú del
   celular). Suele ser alguien decidido, que no necesitó leer mucho.
 - `[web · hero]` → tocó el botón apenas entró al sitio.
-- `[web · servicios]` → leyó la sección de servicios antes de escribir.
 - `[web · formulario]` → completó el formulario de la sección de contacto
   (este es el único que trae nombre, motivo y mensaje además del
   teléfono).

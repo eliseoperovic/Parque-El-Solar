@@ -30,7 +30,7 @@
 
   --urgencias-h: 2.5rem;
   --nav-h: 4.75rem;
-  --nav-h-mobile: 4rem;
+  --nav-h-mobile: 4.5rem;
   --urgencias-mobile-h: 4.25rem; /* fallback; main.js sets the real value */
 
   --radius: 14px;
@@ -255,7 +255,7 @@ em { font-style: italic; }
   gap: 1rem;
 }
 .nav-logo { display: flex; align-items: center; flex-shrink: 0; }
-.nav-logo img { height: 2.75rem; width: 2.75rem; border-radius: 50%; object-fit: cover; }
+.nav-logo img { height: 3.5rem; width: 3.5rem; border-radius: 50%; object-fit: cover; }
 
 .nav-links { display: none; align-items: center; gap: 1.4rem; }
 .nav-links a {
@@ -349,10 +349,10 @@ em { font-style: italic; }
 .hero-title-sub {
   display: block;
   color: var(--verde);
-  font-size: .6em;
-  font-style: italic;
+  font-size: .4em;
+  font-style: normal;
   font-weight: 400;
-  margin-top: .15em;
+  margin-top: .35em;
 }
 .hero-sub {
   max-width: 42ch;

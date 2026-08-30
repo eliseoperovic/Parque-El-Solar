@@ -33,7 +33,7 @@ Abrir con → Bloc de notas) y vas a ver el texto entre comillas, por
 ejemplo:
 
 ```
-email: "parque_el_solar@live.com.ar",
+email: "info@parqueelsolar.com",
 ```
 
 Cambiá lo que está entre comillas y guardá (Ctrl+S). No toques las comas ni
@@ -63,7 +63,7 @@ teléfono, actualizalo en los dos archivos. La forma más fácil:
 |---|---|
 | Teléfono de urgencias | `488-1158` y `5493884881158` |
 | Teléfono de administración | `519-6557` y `5493885196557` |
-| Email | `parque_el_solar@live.com.ar` |
+| Email | `info@parqueelsolar.com` |
 | Dirección del parque | `Ruta 9 km 8` |
 | Dirección de administración | `San Martín y Lamadrid` |
 | Horario de administración | `8:30 a 12:30` |

@@ -29,8 +29,8 @@
   --container-narrow-w: 760px;
 
   --urgencias-h: 2.5rem;
-  --nav-h: 4.75rem;
-  --nav-h-mobile: 4.5rem;
+  --nav-h: 5rem;
+  --nav-h-mobile: 4.75rem;
   --urgencias-mobile-h: 4.25rem; /* fallback; main.js sets the real value */
 
   --radius: 14px;
@@ -255,7 +255,10 @@ em { font-style: italic; }
   gap: 1rem;
 }
 .nav-logo { display: flex; align-items: center; flex-shrink: 0; }
-.nav-logo img { height: 3.5rem; width: 3.5rem; border-radius: 50%; object-fit: cover; }
+.nav-logo img {
+  height: 4rem; width: 4rem; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 4px 16px rgba(20,69,47,.25), 0 1px 3px rgba(20,69,47,.15);
+}
 
 .nav-links { display: none; align-items: center; gap: 1.4rem; }
 .nav-links a {

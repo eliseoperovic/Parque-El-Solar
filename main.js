@@ -114,7 +114,7 @@
     els.forEach(function (el) {
       var lines = splitLines(el);
       lines.forEach(function (line, i) {
-        setTimeout(function () { line.classList.add("is-revealed"); }, 120 + i * 140);
+        setTimeout(function () { line.classList.add("is-revealed"); }, 350 + i * 260);
       });
     });
   }

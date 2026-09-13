@@ -67,7 +67,7 @@ teléfono, actualizalo en los dos archivos. La forma más fácil:
 | Dirección del parque | `Ruta 9 km 8` |
 | Dirección de administración | `San Martín y Lamadrid` |
 | Horario de administración | `8:30 a 12:30` |
-| Horario de visitas | `8 a 19` |
+| Horario de visitas | `8 a 18` |
 
 ## 4. Cómo reemplazar las fotos o el logo
 

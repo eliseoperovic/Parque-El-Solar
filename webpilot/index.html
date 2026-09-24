@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- [COMPLETAR] Confirmá el dominio final. Si no es webpilotcba.com, reemplazalo
+     en este archivo (canonical, og:url, og:image, JSON-LD), en sitemap.xml y en robots.txt. -->
+<title>WebPilot · Páginas web para negocios en Argentina</title>
+<meta name="description" content="Diseño páginas web a medida para negocios y emprendedores de toda Argentina. Rápidas, pensadas para celular y conectadas a tu WhatsApp. Presupuesto sin cargo.">
+<link rel="canonical" href="https://webpilotcba.com/">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3f3f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<!-- Open Graph / redes sociales -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="WebPilot">
+<meta property="og:title" content="WebPilot · Tu negocio, con una web que trabaja por vos">
+<meta property="og:description" content="Páginas web a medida para negocios de Argentina. Rápidas, pensadas para celular y conectadas a tu WhatsApp.">
+<meta property="og:url" content="https://webpilotcba.com/">
+<meta property="og:image" content="https://webpilotcba.com/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="WebPilot — Tu negocio, con una web que trabaja por vos.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="WebPilot · Tu negocio, con una web que trabaja por vos">
+<meta name="twitter:description" content="Páginas web a medida para negocios de Argentina. Rápidas, pensadas para celular y conectadas a tu WhatsApp.">
+<meta name="twitter:image" content="https://webpilotcba.com/assets/img/og-image.jpg">
+
+<!-- Si cambiás el número después de ?v=, los visitantes reciben los estilos y el código nuevos al instante. -->
+<link rel="stylesheet" href="assets/css/styles.css?v=1">
+
+<!-- Arranque: tema claro/oscuro guardado, tipografía de respaldo y preloader.
+     OJO: si modificás este script tenés que actualizar su hash en el archivo _headers (ver README). -->
+<script>(function(d){var h=d.documentElement,s=null,r=matchMedia('(prefers-reduced-motion: reduce)').matches;h.classList.add('js');try{s=localStorage.getItem('wp-theme')}catch(e){}if(s==='light'||s==='dark')h.setAttribute('data-theme',s);if(!/Mac|iPhone|iPad|iPod/.test(navigator.userAgent))h.classList.add('ff-fallback');try{if(!r&&!sessionStorage.getItem('wp-seen'))h.classList.add('is-loading')}catch(e){}setTimeout(function(){if(!window.__wpReady)h.classList.add('no-anim','is-loaded')},3500)})(document);</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "WebPilot",
+  "description": "Diseño y desarrollo de páginas web a medida para negocios y emprendedores de Argentina. Mantenimiento mensual e integración con WhatsApp.",
+  "url": "https://webpilotcba.com/",
+  "logo": "https://webpilotcba.com/assets/img/favicon.svg",
+  "image": "https://webpilotcba.com/assets/img/og-image.jpg",
+  "telephone": "+5493885864312",
+  "email": "info@webpilotcba.com",
+  "areaServed": { "@type": "Country", "name": "Argentina" },
+  "address": { "@type": "PostalAddress", "addressCountry": "AR" },
+  "priceRange": "USD 20 – USD 400+",
+  "sameAs": ["https://www.instagram.com/webpilot.cba/"],
+  "knowsLanguage": "es",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de diseño web",
+    "itemListElement": [
+      { "@type": "Offer", "name": "Web Básica", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 250, "priceCurrency": "USD" } },
+      { "@type": "Offer", "name": "Web Profesional", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 400, "priceCurrency": "USD" } },
+      { "@type": "Offer", "name": "Mantenimiento mensual", "priceSpecification": { "@type": "UnitPriceSpecification", "minPrice": 20, "maxPrice": 30, "priceCurrency": "USD", "unitText": "MONTH" } }
+    ]
+  }
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ============ PRELOADER (solo la primera visita de la sesión) ============ -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <svg class="preloader__mark" viewBox="0 0 24 24" width="40" height="40"><path class="plane-body" d="M2.5 11.2 21.5 3l-7.3 18.5-3.1-7.9z"/><path class="plane-fold" d="M11.1 13.6 21.5 3"/></svg>
+    <span class="preloader__word">WebPilot</span>
+  </div>
+  <span class="preloader__bar"></span>
+</div>
+
+<!-- Barra de progreso de lectura -->
+<div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+<!-- Cursor personalizado (solo con mouse; lo activa main.js) -->
+<div class="cursor" aria-hidden="true"></div>
+
+<!-- ============ NAVEGACIÓN ============ -->
+<header class="nav">
+  <div class="nav__inner container">
+    <a class="logo" href="#top" aria-label="WebPilot, volver al inicio">
+      <svg class="logo__mark" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path class="plane-body" d="M2.5 11.2 21.5 3l-7.3 18.5-3.1-7.9z"/><path class="plane-fold" d="M11.1 13.6 21.5 3"/></svg>
+      <span class="logo__word">WebPilot</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#precios">Precios</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Cambiar a modo oscuro" aria-pressed="false">
+        <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20.2 14.6A8.4 8.4 0 0 1 9.4 3.8a8.4 8.4 0 1 0 10.8 10.8z"/></svg>
+      </button>
+      <a class="btn btn--ink btn--sm nav__cta magnetic" href="https://wa.me/5493885864312" data-wa="nav" target="_blank" rel="noopener">
+        <span>Escribime por WhatsApp</span>
+      </a>
+      <button class="icon-btn burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span class="burger__line"></span><span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Menú móvil a pantalla completa -->
+<div class="menu" id="menu">
+  <nav class="menu__nav container" aria-label="Menú móvil">
+    <a href="#servicios"><small>01</small>Servicios</a>
+    <a href="#proceso"><small>02</small>Proceso</a>
+    <a href="#trabajos"><small>03</small>Trabajos</a>
+    <a href="#precios"><small>04</small>Precios</a>
+    <a href="#faq"><small>05</small>FAQ</a>
+  </nav>
+  <div class="menu__foot container">
+    <a class="btn btn--ink btn--block" href="https://wa.me/5493885864312" data-wa="menu" target="_blank" rel="noopener">
+      <svg class="i-wa" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.3z"/><path d="M8.3 9.8c.2 1.6 1.6 3.3 3.4 4a3.6 3.6 0 0 0 2 .2c.4-.1.7-.5.6-.9l-.3-1a.6.6 0 0 0-.6-.4l-1.2.2a4.9 4.9 0 0 1-2-2.5l.5-1a.6.6 0 0 0-.1-.7l-.7-.8a.7.7 0 0 0-1-.1c-.6.5-1 1.2-.9 2.1z"/></svg>
+      <span>Escribime por WhatsApp</span>
+    </a>
+    <p class="micro">Respuesta el mismo día · Presupuesto sin cargo</p>
+  </div>
+</div>
+
+<main id="contenido">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero__grid-bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="eyebrow hero__eyebrow">
+        <span class="dot" aria-hidden="true"></span>Diseño web para negocios · Argentina · 100% remoto
+      </p>
+
+      <h1 class="hero__title" id="hero-title">
+        <span class="w"><span>Tu</span></span> <span class="w"><span>negocio,</span></span>
+        <span class="w"><span>con</span></span> <span class="w"><span>una</span></span> <span class="w"><span>web</span></span>
+        <span class="w w--muted"><span>que</span></span> <span class="w w--muted"><span>trabaja</span></span>
+        <span class="w w--muted"><span>por</span></span> <span class="w w--muted"><span>vos.</span></span>
+      </h1>
+
+      <div class="hero__bottom">
+        <div class="hero__copy">
+          <p class="hero__lead">Páginas web claras, rápidas y conectadas a tu WhatsApp, para que te encuentren y te escriban.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--ink btn--lg magnetic" href="https://wa.me/5493885864312" data-wa="hero" target="_blank" rel="noopener">
+              <svg class="i-wa" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.3z"/><path d="M8.3 9.8c.2 1.6 1.6 3.3 3.4 4a3.6 3.6 0 0 0 2 .2c.4-.1.7-.5.6-.9l-.3-1a.6.6 0 0 0-.6-.4l-1.2.2a4.9 4.9 0 0 1-2-2.5l.5-1a.6.6 0 0 0-.1-.7l-.7-.8a.7.7 0 0 0-1-.1c-.6.5-1 1.2-.9 2.1z"/></svg>
+              <span>Pedí tu presupuesto gratis</span>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#trabajos">
+              <span>Ver trabajos</span>
+              <svg class="i-arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
+          </div>
+          <p class="micro hero__trust">
+            <span>Respuesta el mismo día</span><span aria-hidden="true">·</span><span>Presupuesto sin cargo</span><span aria-hidden="true">·</span><span>Sin compromiso</span>
+          </p>
+        </div>
+
+        <!-- Composición geométrica: trayectoria de vuelo -->
+        <div class="hero__art" aria-hidden="true">
+          <div class="hero__art-inner" data-parallax="-0.08">
+            <svg viewBox="0 0 400 400" width="400" height="400" class="flight">
+              <circle cx="200" cy="200" r="170" class="flight__ring"/>
+              <circle cx="200" cy="200" r="110" class="flight__ring flight__ring--dash"/>
+              <circle cx="200" cy="200" r="50" class="flight__ring"/>
+              <path d="M30 200h340M200 30v340" class="flight__axis"/>
+              <path d="M60 330 C 140 320, 170 160, 330 80" class="flight__path"/>
+              <g class="flight__plane" transform="translate(318 64) rotate(0)">
+                <path d="M-22 10 22-8l-8 30-7-11z" class="flight__plane-body"/>
+                <path d="M-7 11 22-8" class="flight__plane-fold"/>
+              </g>
+              <circle cx="60" cy="330" r="4" class="flight__dot"/>
+              <text x="70" y="352" class="flight__label">Tu negocio</text>
+              <text x="250" y="130" class="flight__label">Tus clientes</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#problema" aria-label="Bajar a la siguiente sección">
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__row">
+      <div class="marquee__track">
+        <span>Diseño</span><i></i><span>Velocidad</span><i></i><span>Claridad</span><i></i><span>Resultados</span><i></i>
+        <span>Diseño</span><i></i><span>Velocidad</span><i></i><span>Claridad</span><i></i><span>Resultados</span><i></i>
+      </div>
+    </div>
+    <div class="marquee__row marquee__row--outline marquee__row--reverse">
+      <div class="marquee__track">
+        <span>Pensada para celular</span><i></i><span>Conectada a WhatsApp</span><i></i><span>Lista para Google</span><i></i>
+        <span>Pensada para celular</span><i></i><span>Conectada a WhatsApp</span><i></i><span>Lista para Google</span><i></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 01 · PROBLEMA Y SOLUCIÓN ============ -->
+  <section class="section problem" id="problema" aria-labelledby="problema-title">
+    <div class="container">
+      <header class="section__head">
+        <p class="section__num" data-reveal>01 — El problema</p>
+        <h2 class="section__title" id="problema-title" data-reveal>Sin web, tus clientes le escriben a otro.</h2>
+      </header>
+
+      <ol class="problem__list" data-reveal-group>
+        <li class="problem__item" data-reveal>
+          <span class="problem__n">i.</span>
+          <h3>Te buscan y no aparecés.</h3>
+          <p>Antes de comprar, la gente busca en Google. Si no estás, elige a quien sí está.</p>
+        </li>
+        <li class="problem__item" data-reveal>
+          <span class="problem__n">ii.</span>
+          <h3>Instagram no alcanza.</h3>
+          <p>Las redes cambian las reglas todo el tiempo. Tu web es tuya: nadie te baja el alcance.</p>
+        </li>
+        <li class="problem__item" data-reveal>
+          <span class="problem__n">iii.</span>
+          <h3>Las dudas frenan la venta.</h3>
+          <p>Precios, horarios, ubicación: si no están claros, la consulta nunca llega.</p>
+        </li>
+      </ol>
+
+      <div class="solution" data-reveal>
+        <p class="solution__label">La solución</p>
+        <p class="solution__text">Una web clara y rápida que responde las preguntas antes de que te las hagan y <strong>lleva a cada visitante directo a tu WhatsApp.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 · SERVICIOS ============ -->
+  <section class="section services" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+      <header class="section__head section__head--split">
+        <div>
+          <p class="section__num" data-reveal>02 — Servicios</p>
+          <h2 class="section__title" id="servicios-title" data-reveal>Todo lo que tu web necesita. Nada que sobre.</h2>
+        </div>
+        <p class="section__intro" data-reveal>Me encargo de todo: diseño, textos ordenados, publicación y que funcione perfecto en el celular.</p>
+      </header>
+
+      <ul class="services__list" data-reveal-group>
+        <li class="service" data-reveal>
+          <span class="service__n">01</span>
+          <h3 class="service__title">Web a medida</h3>
+          <p class="service__text">Diseñada para tu negocio y tus clientes. Nada de plantillas genéricas.</p>
+          <svg class="service__icon" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 16h36M11 12.5h.01M15 12.5h.01"/><rect x="12" y="21" width="11" height="12"/><path d="M28 22h8M28 27h8M28 32h5"/></svg>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__n">02</span>
+          <h3 class="service__title">Diseño para celular</h3>
+          <p class="service__text">La mayoría de tus clientes entra desde el teléfono. Primero se diseña para ahí.</p>
+          <svg class="service__icon" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect x="15" y="5" width="18" height="38" rx="3"/><path d="M21 9h6M22 38.5h4"/><path d="M19 16h10M19 21h10M19 26h6"/></svg>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__n">03</span>
+          <h3 class="service__title">SEO básico</h3>
+          <p class="service__text">Títulos, descripciones y estructura para que Google entienda qué hacés y dónde.</p>
+          <svg class="service__icon" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><circle cx="21" cy="21" r="12"/><path d="M30 30l11 11"/><path d="M15 23l4-4 3 3 5-6"/></svg>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__n">04</span>
+          <h3 class="service__title">WhatsApp y Google Maps</h3>
+          <p class="service__text">Botones que abren el chat con un mensaje listo y un mapa para que lleguen sin vueltas.</p>
+          <svg class="service__icon" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><path d="M24 43s-13-12-13-22a13 13 0 0 1 26 0c0 10-13 22-13 22z"/><circle cx="24" cy="21" r="4.5"/></svg>
+        </li>
+        <li class="service" data-reveal>
+          <span class="service__n">05</span>
+          <h3 class="service__title">Mantenimiento</h3>
+          <p class="service__text">Hosting, cambios menores y soporte. Vos te ocupás de tu negocio; yo, de la web.</p>
+          <svg class="service__icon" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><circle cx="24" cy="24" r="17"/><path d="M24 13v11l7 5"/></svg>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 03 · PROCESO ============ -->
+  <!-- [COMPLETAR] Confirmá los plazos estimados de cada paso. -->
+  <section class="section process" id="proceso" aria-labelledby="proceso-title">
+    <div class="container">
+      <header class="section__head">
+        <p class="section__num" data-reveal>03 — Proceso</p>
+        <h2 class="section__title" id="proceso-title" data-reveal>Cuatro pasos. Sin sorpresas.</h2>
+      </header>
+
+      <div class="process__track">
+        <div class="process__line" aria-hidden="true"><span class="process__line-fill"></span></div>
+        <ol class="process__list">
+          <li class="step" data-reveal>
+            <span class="step__dot" aria-hidden="true"></span>
+            <p class="step__time">Día 1</p>
+            <h3 class="step__title"><span class="step__n">1</span> Charlamos por WhatsApp</h3>
+            <p class="step__text">Me contás qué hacés, a quién le vendés y qué necesitás. Te paso un presupuesto sin cargo.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__dot" aria-hidden="true"></span>
+            <p class="step__time">2 a 4 días</p>
+            <h3 class="step__title"><span class="step__n">2</span> Diseño y propuesta</h3>
+            <p class="step__text">Te muestro cómo se va a ver tu web antes de construirla. Ajustamos lo que haga falta.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__dot" aria-hidden="true"></span>
+            <p class="step__time">5 a 10 días</p>
+            <h3 class="step__title"><span class="step__n">3</span> Construcción y ajustes</h3>
+            <p class="step__text">Armo la web completa, la pruebo en celular y computadora, y la revisamos juntos.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__dot" aria-hidden="true"></span>
+            <p class="step__time">1 a 2 días</p>
+            <h3 class="step__title"><span class="step__n">4</span> Publicación y soporte</h3>
+            <p class="step__text">La pongo online con tu dominio y te acompaño después para lo que necesites.</p>
+          </li>
+        </ol>
+      </div>
+      <p class="micro process__note" data-reveal>Plazos estimados desde que tengo tus textos y fotos.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04 · TRABAJOS ============ -->
+  <section class="section work" id="trabajos" aria-labelledby="trabajos-title">
+    <div class="container">
+      <header class="section__head section__head--split">
+        <div>
+          <p class="section__num" data-reveal>04 — Trabajos</p>
+          <h2 class="section__title" id="trabajos-title" data-reveal>Webs reales, para negocios reales.</h2>
+        </div>
+        <p class="section__intro" data-reveal>Cada proyecto arranca con una pregunta: ¿qué tiene que hacer esta web por el negocio?</p>
+      </header>
+
+      <div class="work__list">
+
+        <!-- Proyecto 1 · Parque El Solar -->
+        <!-- [COMPLETAR] Si tenés un resultado medible real (más consultas, visitas, etc.), sumalo en "Resultado". -->
+        <article class="project" aria-labelledby="p1-title">
+          <div class="project__media" data-reveal>
+            <div class="project__media-inner" data-parallax="0.05">
+              <div class="browser">
+                <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">parqueelsolar.com</span></div>
+                <img class="browser__img" src="assets/img/parque-el-solar-desktop.webp" width="1200" height="750" loading="lazy" decoding="async" alt="Portada de la web de Parque El Solar en computadora: foto de los jardines del parque, título y botón para hablar con la administración.">
+              </div>
+              <div class="phone" data-parallax="-0.08">
+                <img class="phone__img" src="assets/img/parque-el-solar-mobile.webp" width="390" height="844" loading="lazy" decoding="async" alt="La misma web de Parque El Solar en un celular, con botones fijos de llamada y WhatsApp.">
+              </div>
+            </div>
+          </div>
+          <div class="project__info" data-reveal>
+            <p class="project__meta"><span>01</span> Cementerio parque · San Salvador de Jujuy</p>
+            <h3 class="project__title" id="p1-title">Parque El Solar</h3>
+            <dl class="project__facts">
+              <div><dt>Qué hice</dt><dd>Web institucional de una página: servicios, recorrido del parque, preguntas frecuentes, horarios y mapas con la ubicación exacta.</dd></div>
+              <div><dt>Clave</dt><dd>Acceso a urgencias 24 h por teléfono y WhatsApp, siempre visible, pensado primero para el celular.</dd></div>
+              <div><dt>Resultado</dt><dd>Publicada en parqueelsolar.com. Cada botón lleva a la familia directo a hablar con la administración.</dd></div>
+            </dl>
+            <a class="link-arrow" href="https://parqueelsolar.com" data-link="parqueElSolar" target="_blank" rel="noopener">
+              <span>Ver sitio online</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 · Huanka -->
+        <!-- [COMPLETAR] Huanka: confirmá el texto de "Qué hice" y "Clave", sumá el link en CONFIG.links.huanka (main.js)
+             y reemplazá el mockup dibujado por capturas reales:
+             assets/img/huanka-desktop.webp (1200×750) y assets/img/huanka-mobile.webp (390×844).
+             Podés copiar la estructura <img> del proyecto 1. -->
+        <article class="project project--alt" aria-labelledby="p2-title">
+          <div class="project__media" data-reveal>
+            <div class="project__media-inner" data-parallax="0.05">
+              <div class="browser">
+                <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">huanka</span></div>
+                <div class="shop" role="img" aria-label="Ilustración de la tienda online de Huanka: portada con la marca y grilla de prendas.">
+                  <div class="shop__hero"><span class="shop__brand">HUANKA</span><span class="shop__tag">Nueva colección</span></div>
+                  <div class="shop__grid"><i></i><i></i><i></i><i></i></div>
+                </div>
+              </div>
+              <div class="phone" data-parallax="-0.08">
+                <div class="shop shop--m" aria-hidden="true">
+                  <div class="shop__hero"><span class="shop__brand">HUANKA</span></div>
+                  <div class="shop__grid"><i></i><i></i><i></i><i></i></div>
+                  <span class="shop__btn"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project__info" data-reveal>
+            <p class="project__meta"><span>02</span> Tienda de ropa femenina</p>
+            <h3 class="project__title" id="p2-title">Huanka</h3>
+            <dl class="project__facts">
+              <div><dt>Qué hice</dt><dd>Web para una marca de ropa femenina, pensada para mostrar la colección y la identidad de la marca.</dd></div>
+              <div><dt>Clave</dt><dd>Diseño para celular y consultas directas por WhatsApp desde cada sección.</dd></div>
+            </dl>
+            <a class="link-arrow" href="#" data-link="huanka" target="_blank" rel="noopener" hidden>
+              <span>Ver sitio online</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Espacio para próximos proyectos: copiá un <article class="project"> de arriba y pegalo acá. -->
+        <a class="project-next card-invert" href="https://wa.me/5493885864312" data-wa="trabajos" target="_blank" rel="noopener" data-reveal>
+          <span class="project-next__num">03</span>
+          <span class="project-next__title">Tu negocio puede ser el próximo.</span>
+          <span class="project-next__cta">Contame tu idea
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 · PRECIOS ============ -->
+  <!-- Los precios se leen de CONFIG.prices en assets/js/main.js. Los de acá son de respaldo. -->
+  <section class="section pricing" id="precios" aria-labelledby="precios-title">
+    <div class="container">
+      <header class="section__head section__head--split">
+        <div>
+          <p class="section__num" data-reveal>05 — Precios</p>
+          <h2 class="section__title" id="precios-title" data-reveal>Precios claros, desde el principio.</h2>
+        </div>
+        <p class="section__intro" data-reveal>Valores de referencia en dólares. Te paso un presupuesto exacto, sin cargo, según lo que necesites.</p>
+      </header>
+
+      <div class="plans" data-reveal-group>
+        <article class="plan card-invert" data-reveal aria-labelledby="plan-basico">
+          <header class="plan__head">
+            <h3 class="plan__name" id="plan-basico">Básico</h3>
+            <p class="plan__for">Para arrancar con presencia online.</p>
+          </header>
+          <p class="plan__price"><small>desde</small> <span class="plan__amount" data-price="basico">250</span> <span class="plan__cur">USD</span></p>
+          <ul class="plan__features">
+            <li>Web de una página</li>
+            <li>Botón de WhatsApp</li>
+            <li>Diseño para celular</li>
+          </ul>
+          <a class="btn btn--line btn--block plan__btn magnetic" href="https://wa.me/5493885864312" data-wa="basico" target="_blank" rel="noopener">
+            <span>Consultar por Básico</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <p class="micro plan__micro">Sin compromiso · Respuesta rápida</p>
+        </article>
+
+        <article class="plan plan--featured card-invert" data-reveal aria-labelledby="plan-pro">
+          <p class="plan__badge">Recomendado</p>
+          <header class="plan__head">
+            <h3 class="plan__name" id="plan-pro">Profesional</h3>
+            <p class="plan__for">Para negocios que quieren crecer.</p>
+          </header>
+          <p class="plan__price"><small>desde</small> <span class="plan__amount" data-price="profesional">400</span> <span class="plan__cur">USD</span></p>
+          <ul class="plan__features">
+            <li>4 a 5 secciones</li>
+            <li>SEO básico</li>
+            <li>Google Maps</li>
+            <li>Formulario de contacto</li>
+            <li>Botón de WhatsApp y diseño para celular</li>
+          </ul>
+          <a class="btn btn--line btn--block plan__btn magnetic" href="https://wa.me/5493885864312" data-wa="profesional" target="_blank" rel="noopener">
+            <span>Consultar por Profesional</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <p class="micro plan__micro">Sin compromiso · Presupuesto sin cargo</p>
+        </article>
+
+        <article class="plan card-invert" data-reveal aria-labelledby="plan-mant">
+          <header class="plan__head">
+            <h3 class="plan__name" id="plan-mant">Mantenimiento</h3>
+            <p class="plan__for">Para olvidarte de lo técnico.</p>
+          </header>
+          <p class="plan__price"><span class="plan__amount" data-price="mantenimiento">20–30</span> <span class="plan__cur">USD<em>/mes</em></span></p>
+          <ul class="plan__features">
+            <li>Hosting incluido</li>
+            <li>Cambios menores</li>
+            <li>Soporte directo</li>
+          </ul>
+          <a class="btn btn--line btn--block plan__btn magnetic" href="https://wa.me/5493885864312" data-wa="mantenimiento" target="_blank" rel="noopener">
+            <span>Consultar por Mantenimiento</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <p class="micro plan__micro">Sin permanencia · Respuesta rápida</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 · CHATBOTS ============ -->
+  <section class="section bots" id="chatbots" aria-labelledby="bots-title">
+    <div class="container bots__inner">
+      <div class="bots__copy">
+        <p class="section__num" data-reveal>06 — Complemento <span class="tag">Nuevo</span></p>
+        <h2 class="section__title" id="bots-title" data-reveal>Un asistente que responde mientras vos trabajás.</h2>
+        <p class="section__intro" data-reveal>Un chatbot para WhatsApp o para tu web que contesta las preguntas de siempre —horarios, precios, ubicación— y te pasa las consultas importantes.</p>
+        <div data-reveal>
+          <a class="btn btn--ink btn--lg magnetic" href="https://wa.me/5493885864312" data-wa="chatbots" target="_blank" rel="noopener">
+            <span>Consultá por chatbots</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <figure class="chat" data-reveal>
+        <div class="chat__head" aria-hidden="true">
+          <span class="chat__avatar"></span>
+          <span><strong>Tu negocio</strong><small>en línea</small></span>
+        </div>
+        <div class="chat__body">
+          <p class="bubble bubble--in">Hola! ¿Hasta qué hora abren hoy?</p>
+          <p class="bubble bubble--out">¡Hola! Hoy abrimos hasta las 20 h. ¿Querés que te pase la ubicación?</p>
+          <p class="bubble bubble--in">Sí, porfa</p>
+          <p class="bubble bubble--out">Acá la tenés: Av. Siempre Viva 742. Te esperamos.</p>
+        </div>
+        <figcaption class="chat__caption">Ejemplo ilustrativo</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ 07 · POR QUÉ WEBPILOT ============ -->
+  <section class="section why" id="por-que" aria-labelledby="why-title">
+    <div class="container">
+      <header class="section__head">
+        <p class="section__num" data-reveal>07 — Por qué WebPilot</p>
+        <h2 class="section__title" id="why-title" data-reveal>Una sola persona. Todo el proyecto.</h2>
+      </header>
+
+      <!-- Contadores: solo datos reales. "Webs publicadas" se lee de CONFIG.stats.proyectos. -->
+      <dl class="stats" data-reveal-group>
+        <div class="stat" data-reveal><dt>Webs publicadas</dt><dd><span class="count" data-count="2" data-stat="proyectos">2</span></dd></div>
+        <div class="stat" data-reveal><dt>Pasos claros</dt><dd><span class="count" data-count="4">4</span></dd></div>
+        <div class="stat" data-reveal><dt>Trabajo remoto</dt><dd><span class="count" data-count="100">100</span><sup>%</sup></dd></div>
+        <div class="stat" data-reveal><dt>USD, desde</dt><dd><span class="count" data-count="250" data-price-count="basico">250</span></dd></div>
+      </dl>
+
+      <ul class="reasons" data-reveal-group>
+        <li class="reason" data-reveal>
+          <h3>Trato directo</h3>
+          <p>Hablás siempre con la misma persona. Sin intermediarios ni respuestas automáticas.</p>
+        </li>
+        <li class="reason" data-reveal>
+          <h3>Entrega ordenada</h3>
+          <p>Pasos claros, plazos acordados y avances que podés ver en todo momento.</p>
+        </li>
+        <li class="reason" data-reveal>
+          <h3>Web rápida</h3>
+          <p>Código liviano, sin plantillas pesadas. Carga rápido incluso con datos móviles.</p>
+        </li>
+        <li class="reason" data-reveal>
+          <h3>Soporte después de publicar</h3>
+          <p>No desaparezco cuando la web sale online. Seguimos en contacto para lo que necesites.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 08 · FAQ ============ -->
+  <!-- [COMPLETAR] Revisá las respuestas marcadas con [COMPLETAR] abajo: plazos, formas de pago y propiedad de la web. -->
+  <section class="section faq" id="faq" aria-labelledby="faq-title">
+    <div class="container faq__inner">
+      <header class="section__head faq__head">
+        <p class="section__num" data-reveal>08 — Preguntas frecuentes</p>
+        <h2 class="section__title" id="faq-title" data-reveal>Lo que siempre me preguntan.</h2>
+        <p class="section__intro" data-reveal>¿Tenés otra duda? <a class="u-link" href="https://wa.me/5493885864312" data-wa="faq" target="_blank" rel="noopener">Escribime por WhatsApp</a>.</p>
+      </header>
+
+      <div class="faq__list" data-reveal-group>
+        <!-- [COMPLETAR] Confirmá estos plazos. -->
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-1" id="qa-1-btn"><span>¿Cuánto tarda en estar lista mi web?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-1" role="region" aria-labelledby="qa-1-btn"><div><p>Una web Básica suele estar lista en 1 a 2 semanas y una Profesional en 2 a 3 semanas, desde que tengo tus textos y fotos.</p></div></div>
+        </div>
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-2" id="qa-2-btn"><span>¿Qué necesito para empezar?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-2" role="region" aria-labelledby="qa-2-btn"><div><p>Solo escribirme por WhatsApp. Después vamos a necesitar tu logo (si tenés), algunas fotos y la información básica: qué hacés, dónde estás y cómo contactarte. Si te falta algo, te ayudo a armarlo.</p></div></div>
+        </div>
+        <!-- [COMPLETAR] Confirmá la forma de pago real (porcentajes y medios). -->
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-3" id="qa-3-btn"><span>¿Cómo se paga?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-3" role="region" aria-labelledby="qa-3-btn"><div><p>Una parte para arrancar y el resto cuando la web está lista, antes de publicarla. Los detalles y medios de pago los vemos juntos al pasarte el presupuesto.</p></div></div>
+        </div>
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-4" id="qa-4-btn"><span>¿Incluye dominio y hosting?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-4" role="region" aria-labelledby="qa-4-btn"><div><p>El hosting está incluido en el plan de Mantenimiento. El dominio (por ejemplo, tunegocio.com.ar) se registra a tu nombre y tiene un costo anual aparte; te guío para sacarlo o lo gestiono por vos.</p></div></div>
+        </div>
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-5" id="qa-5-btn"><span>¿Puedo pedir cambios después?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-5" role="region" aria-labelledby="qa-5-btn"><div><p>Sí. Durante la construcción hacemos rondas de ajustes, y una vez publicada, con el Mantenimiento tenés cambios menores todos los meses.</p></div></div>
+        </div>
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-6" id="qa-6-btn"><span>¿Trabajás con negocios de cualquier rubro?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-6" role="region" aria-labelledby="qa-6-btn"><div><p>Sí. Comercios, profesionales, servicios, gastronomía o emprendimientos: si tenés clientes que te buscan, una web te sirve.</p></div></div>
+        </div>
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-7" id="qa-7-btn"><span>¿Trabajás solo en mi ciudad?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-7" role="region" aria-labelledby="qa-7-btn"><div><p>Trabajo 100% remoto con negocios de toda Argentina. Todo se coordina por WhatsApp, y por videollamada si hace falta.</p></div></div>
+        </div>
+        <!-- [COMPLETAR] Confirmá qué queda a nombre del cliente. -->
+        <div class="qa" data-reveal>
+          <h3 class="qa__q"><button type="button" aria-expanded="false" aria-controls="qa-8" id="qa-8-btn"><span>¿La web va a ser mía?</span><i class="qa__icon" aria-hidden="true"></i></button></h3>
+          <div class="qa__a" id="qa-8" role="region" aria-labelledby="qa-8-btn"><div><p>Sí. El dominio queda a tu nombre y el contenido es tuyo.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 · CTA FINAL ============ -->
+  <section class="final" id="contacto" aria-labelledby="final-title">
+    <div class="final__lines" aria-hidden="true"></div>
+    <div class="container final__inner">
+      <p class="section__num" data-reveal>09 — Hablemos</p>
+      <h2 class="final__title" id="final-title" data-reveal>¿Hablamos de tu web?</h2>
+      <p class="final__lead" data-reveal>Contame qué hacés y te paso un presupuesto sin cargo. Sin compromiso.</p>
+      <div class="final__cta" data-reveal>
+        <a class="btn btn--paper btn--xl magnetic" href="https://wa.me/5493885864312" data-wa="final" target="_blank" rel="noopener">
+          <svg class="i-wa" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.3z"/><path d="M8.3 9.8c.2 1.6 1.6 3.3 3.4 4a3.6 3.6 0 0 0 2 .2c.4-.1.7-.5.6-.9l-.3-1a.6.6 0 0 0-.6-.4l-1.2.2a4.9 4.9 0 0 1-2-2.5l.5-1a.6.6 0 0 0-.1-.7l-.7-.8a.7.7 0 0 0-1-.1c-.6.5-1 1.2-.9 2.1z"/></svg>
+          <span>Escribime por WhatsApp</span>
+        </a>
+        <p class="micro">Respuesta el mismo día · Presupuesto sin cargo</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="logo" href="#top" aria-label="WebPilot, volver al inicio">
+          <svg class="logo__mark" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path class="plane-body" d="M2.5 11.2 21.5 3l-7.3 18.5-3.1-7.9z"/><path class="plane-fold" d="M11.1 13.6 21.5 3"/></svg>
+          <span class="logo__word">WebPilot</span>
+        </a>
+        <p>Páginas web para negocios de Argentina.<br>100% remoto.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="Secciones">
+        <p class="footer__label">Secciones</p>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#precios">Precios</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="footer__col">
+        <p class="footer__label">Contacto</p>
+        <a href="https://wa.me/5493885864312" data-wa="footer" target="_blank" rel="noopener"><span>WhatsApp · <span data-phone>+54 9 388 586-4312</span></span></a>
+        <a href="https://www.instagram.com/webpilot.cba/" data-link="instagram" target="_blank" rel="noopener"><span>Instagram · @webpilot.cba</span></a>
+        <a href="mailto:info@webpilotcba.com" data-email>info@webpilotcba.com</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span data-year>2026</span> WebPilot. Todos los derechos reservados.</p>
+      <a class="footer__top-link" href="#top">Volver arriba
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+      </a>
+    </div>
+  </div>
+  <p class="footer__giant" aria-hidden="true">WebPilot</p>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="wa-float" href="https://wa.me/5493885864312" data-wa="flotante" target="_blank" rel="noopener" aria-label="Escribime por WhatsApp">
+  <span class="wa-float__pulse" aria-hidden="true"></span>
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M3 21l1.6-4.7A8.5 8.5 0 1 1 8 19.3z"/><path d="M8.3 9.8c.2 1.6 1.6 3.3 3.4 4a3.6 3.6 0 0 0 2 .2c.4-.1.7-.5.6-.9l-.3-1a.6.6 0 0 0-.6-.4l-1.2.2a4.9 4.9 0 0 1-2-2.5l.5-1a.6.6 0 0 0-.1-.7l-.7-.8a.7.7 0 0 0-1-.1c-.6.5-1 1.2-.9 2.1z"/></svg>
+</a>
+
+<script src="assets/js/main.js?v=1" defer></script>
+</body>
+</html>

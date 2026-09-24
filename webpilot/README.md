@@ -170,7 +170,7 @@ el error muestra el nuevo `sha256-...`. Copialo y reemplazá el viejo en `_heade
 
 ## 9. Detalles técnicos (por si te preguntan)
 
-- Sin frameworks ni librerías externas. Todo el peso es HTML + ~40 KB de CSS + ~12 KB de JS.
+- Sin frameworks ni librerías externas. Todo el peso es HTML + ~45 KB de CSS + ~15 KB de JS (sin comprimir).
 - Paleta 100% en grises con variables CSS (`--bg`, `--surface`, `--line`, `--text-muted`,
   `--text`, `--ink`). Modo claro y oscuro automático, con botón manual.
 - Tipografía: Helvetica Neue / Helvetica (Mac/iPhone) y Arial como respaldo con el

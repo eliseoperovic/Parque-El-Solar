@@ -55,28 +55,21 @@ Los textos de la página (títulos, FAQ, etc.) se cambian directo en `index.html
 
 ---
 
-## 3. Subir el proyecto a GitHub
+## 3. El proyecto en GitHub
 
-Este sitio hoy está dentro del repositorio de Parque El Solar, en la carpeta
-`webpilot/`. **Lo recomendable es darle su propio repositorio**, así los dos sitios
-no se mezclan.
+El código vive en su propio repositorio: `github.com/eliseoperovic/webpilot`.
+Todo lo que está en la rama `main` es lo que se publica.
 
-1. Entrá a <https://github.com> con tu cuenta.
-2. Arriba a la derecha: **+** → **New repository**.
-3. Nombre: `webpilot`. Dejalo en **Public** o **Private** (los dos funcionan con Cloudflare).
-   No tildes nada más. Tocá **Create repository**.
-4. En la pantalla siguiente, tocá el link **uploading an existing file**.
-5. Abrí la carpeta `webpilot` en tu computadora, seleccioná **todo lo que hay adentro**
-   (no la carpeta en sí) y arrastralo a la página de GitHub.
+Si algún día tenés que subirlo de cero a otro repositorio:
+
+1. En <https://github.com>: **+** → **New repository** → nombre `webpilot` →
+   **Create repository** (sin tildar nada más).
+2. Tocá el link **uploading an existing file**.
+3. Seleccioná **todo lo que hay adentro** de la carpeta del sitio (no la carpeta en sí) y
+   arrastralo. Tiene que quedar `index.html` en la raíz del repositorio.
    - Los archivos que empiezan con punto (como `.gitignore`) a veces no se ven. En Mac:
      `Cmd + Shift + .` los muestra. En Windows: Explorador → Vista → Elementos ocultos.
-     Si `.gitignore` no se sube, no pasa nada grave.
-   - Tiene que quedar `index.html` en la raíz del repositorio, no adentro de otra carpeta.
-6. Abajo, en "Commit changes", escribí algo como `Primera versión` y tocá **Commit changes**.
-
-> ¿Preferís dejarlo en el repositorio de Parque El Solar? Se puede (ver paso 4.5), pero
-> **no juntes esta rama con la principal de Parque El Solar**: ese repositorio publica
-> parqueelsolar.com y el sitio de WebPilot quedaría visible en parqueelsolar.com/webpilot/.
+4. Abajo, **Commit changes**.
 
 ---
 
@@ -94,8 +87,6 @@ no se mezclan.
    - **Framework preset:** `None`.
    - **Build command:** dejalo **vacío**.
    - **Build output directory:** dejalo vacío o poné `/`.
-   - Si usás el repositorio de Parque El Solar en vez de uno propio: en **Root directory**
-     poné `webpilot` y en Production branch la rama donde esté el sitio.
 6. Tocá **Save and Deploy**. En uno o dos minutos te da la dirección `https://webpilot.pages.dev`.
    Abrila y revisá que todo ande.
 

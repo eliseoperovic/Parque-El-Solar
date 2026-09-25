@@ -1,5 +1,0 @@
-# [COMPLETAR] Si tu dominio no es webpilotcba.com, cambialo abajo.
-User-agent: *
-Allow: /
-
-Sitemap: https://webpilotcba.com/sitemap.xml
